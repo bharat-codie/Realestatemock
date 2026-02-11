@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Realty | Premium Real Estate Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo">Elite<span>Realty</span></div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-sm">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-inner">
+            <span class="badge">Trusted Real Estate Experts</span>
+            <h1>Find Your Dream Home <br> With Data-Driven Insights.</h1>
+            <p>From luxury villas to cozy apartments, we help you navigate the market with 100% transparency.</p>
+            <div class="hero-btns">
+                <a href="#properties" class="btn-primary">View Listings</a>
+                <a href="tel:+123456789" class="btn-secondary">Speak to an Agent</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats container">
+        <div class="stat-item">
+            <h3>500+</h3>
+            <p>Properties Sold</p>
+        </div>
+        <div class="stat-item">
+            <h3>15+</h3>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+            <h3>250+</h3>
+            <p>Happy Families</p>
+        </div>
+        <div class="stat-item">
+            <h3>12</h3>
+            <p>Award Wins</p>
+        </div>
+    </section>
+
+    <section id="properties" class="properties container">
+        <div class="section-header">
+            <h2>Featured Listings</h2>
+            <p>Explore our hand-picked selection of premium properties.</p>
+        </div>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="prop-img">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Villa">
+                    <span class="price">$1,250,000</span>
+                </div>
+                <div class="prop-content">
+                    <h3>Modern Sunset Villa</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Beverly Hills, CA</p>
+                    <div class="prop-icons">
+                        <span><i class="fas fa-bed"></i> 4</span>
+                        <span><i class="fas fa-bath"></i> 3</span>
+                        <span><i class="fas fa-ruler-combined"></i> 2,500 sqft</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="prop-img">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Luxury Estate">
+                    <span class="price">$850,000</span>
+                </div>
+                <div class="prop-content">
+                    <h3>Skyline Penthouse</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Manhattan, NY</p>
+                    <div class="prop-icons">
+                        <span><i class="fas fa-bed"></i> 2</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-ruler-combined"></i> 1,200 sqft</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="prop-img">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" alt="Cozy Cottage">
+                    <span class="price">$520,000</span>
+                </div>
+                <div class="prop-content">
+                    <h3>Green Valley Estate</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Austin, TX</p>
+                    <div class="prop-icons">
+                        <span><i class="fas fa-bed"></i> 3</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-ruler-combined"></i> 1,800 sqft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="test-card">
+                    <p>"The best experience I've had selling a home. They got me $50k over asking price!"</p>
+                    <h4>- Sarah Johnson</h4>
+                </div>
+                <div class="test-card">
+                    <p>"Professional, transparent, and highly knowledgeable about the local market trends."</p>
+                    <h4>- Michael Chen</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-flex">
+            <div class="contact-info">
+                <h2>Ready to move?</h2>
+                <p>Schedule a free consultation today.</p>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i> <span>(555) 123-4567</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i> <span>info@eliterealty.com</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Tell us about your property..." rows="4"></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo">Elite<span>Realty</span></div>
+                <p>Your premium partner in real estate excellence. We bring you closer to your dream home.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#properties">Listings</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Get the latest market updates.</p>
+                <input type="email" placeholder="Email" class="footer-input">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Elite Realty Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
